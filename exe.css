@@ -1,0 +1,22 @@
+body{
+   /* background-color:rgb(179, 24, 140);*/
+    background-image: url(friend.png);
+    background-size: 1400px 645px;
+    text-align: center;
+    text-shadow: 5px;
+    color: rgb(55, 206, 143);
+
+}
+#heading{
+/* background-color: rgb(216, 39, 32);
+    background-image: url(/html/stone.jpg);*/
+    background-image: url(friend.png);
+    background-size: 1350px 100px;
+    color: rgb(179, 55, 55);
+    animation: mymove 5s infinite;
+    animation-timing-function:linear;
+}
+@keyframes mymove{
+    from{left: 0px;}
+    to{left: 200px;}
+}
